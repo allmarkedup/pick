@@ -1,0 +1,5 @@
+variants:
+  - name: default
+    label: "via keyboard"
+  - name: menu
+    label: "via menu"

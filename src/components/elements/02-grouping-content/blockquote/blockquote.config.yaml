@@ -1,0 +1,7 @@
+label: "Blockquote"
+order: 4
+notes: |
+  The `blockquote` element represents content that is quoted from another source.
+context:
+  content: |
+    [Fred] then said he liked [...] fish.

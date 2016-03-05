@@ -1,0 +1,4 @@
+label: "Subscript"
+order: 16
+notes: |
+  The `sub` element represents a subscript. This element must be used only to mark up typographical conventions with specific meanings, not for typographical presentation.

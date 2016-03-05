@@ -1,0 +1,6 @@
+label: "Description term"
+order: 9
+notes: |
+  The `dt` element represents the term, or name, part of a term-description group in a description list (`dl` element).
+context:
+  content: "Description term"

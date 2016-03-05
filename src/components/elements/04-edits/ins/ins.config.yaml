@@ -1,0 +1,6 @@
+label: "Insertion"
+notes: |
+  The `ins` element represents an addition to the document. The `datetime` attribute can be included to include the date and (optionally) time of the change.
+context:
+  text: "Wood Green"
+  datetime: "2008-10-12"

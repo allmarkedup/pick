@@ -1,0 +1,19 @@
+<dl>
+{% for item in items %}
+    {% if item.term | is_string %}
+        <dt>{{ item.term }}</dt>
+    {% else %}
+        {% for term in item.term %}
+            <dt>{{ term }}<dt>
+        {% endfor %}
+    {% endif %}
+
+    {% if item.definition | is_string %}
+        <dd>{{ item.definition }}</dd>
+    {% else %}
+        {% for definition in item.definition %}
+            <dd>{{ definition }}<dd>
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+</dl>

@@ -1,0 +1,12 @@
+label: "Figure"
+order: 11
+notes: |
+  The `figure` element represents some content that is self-contained and typically referenced from the main flow of the document. A `figcaption` element represents a caption or legend for this content.
+context:
+  content: |
+    ’Twas brillig, and the slithy toves
+    Did gyre and gimble in the wabe;
+    All mimsy were the borogoves,
+    And the mome raths outgrabe.
+  caption: |
+    <cite>Jabberwocky</cite> (first verse). Lewis Carroll, 1832-98

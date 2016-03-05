@@ -1,0 +1,4 @@
+label: "Highlight (mark)"
+order: 21
+notes: |
+  The `mark` element represents a run of text in one document marked or highlighted for reference purposes, due to its relevance in another context.

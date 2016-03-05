@@ -1,0 +1,6 @@
+label: "Deletion"
+notes: |
+  The `del` element represents a removal from the document. The `datetime` attribute can be included to include the date and (optionally) time of the change.
+context:
+  text: "Aldwych"
+  datetime: "1994-09-30"

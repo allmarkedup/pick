@@ -1,0 +1,4 @@
+label: "Small print"
+order: 4
+notes: |
+  The `small` element represents side comments such as small print, i.e. disclaimers, caveats, legal restrictions, or copyrights. Small print is also sometimes used for attribution, or for satisfying licensing requirements.

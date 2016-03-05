@@ -1,0 +1,8 @@
+<figure>
+    {% block content %}{{ content }}{% endblock %}
+
+    {% if caption %}
+        {% set content = caption %}
+        {% include "@figcaption" %}
+    {% endif %}
+</figure>

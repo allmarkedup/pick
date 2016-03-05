@@ -1,0 +1,6 @@
+label: "Footer"
+order: 8
+notes: |
+  The `footer` element represents a footer for its nearest ancestor sectioning element. A footer typically contains information about its section such as who wrote it, links to related documents, copyright data, and the like.
+context:
+  content: <!-- Footer content -->

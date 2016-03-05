@@ -1,0 +1,6 @@
+label: "Description definition"
+order: 10
+notes: |
+  The `dd` element represents the description, definition, or value, part of a term-description group in a description list (`dl` element).
+context:
+  content: "Description definition"

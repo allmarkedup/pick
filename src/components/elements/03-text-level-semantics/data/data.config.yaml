@@ -1,0 +1,4 @@
+label: "Data"
+order: 10
+notes: |
+  The `data` element represents its contents, along with a machine-readable form of those contents in the `value` attribute.

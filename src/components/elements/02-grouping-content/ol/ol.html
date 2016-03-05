@@ -1,0 +1,6 @@
+<ol>
+{% for item in items %}
+    {% set content = item.content %}
+    {% include "@li" %}
+{% endfor %}
+</ol>
