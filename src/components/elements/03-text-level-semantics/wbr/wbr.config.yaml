@@ -1,4 +1,0 @@
-label: "Word break"
-order: 23
-notes: |
-  The `wbr` element represents a word break opportunity.

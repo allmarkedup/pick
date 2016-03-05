@@ -1,6 +1,0 @@
-label: "Division"
-order: 14
-notes: |
-  The `div` element has no special meaning at all. It represents its children. It can be used with the `class`, `lang`, and `title` attributes to mark up semantics common to a group of consecutive elements.
-context:
-  content: <!-- Division content -->

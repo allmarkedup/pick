@@ -1,4 +1,0 @@
-label: "Time"
-order: 11
-notes: |
-  The `time` element represents its contents, along with a machine-readable form of those contents in the `datetime` attribute.

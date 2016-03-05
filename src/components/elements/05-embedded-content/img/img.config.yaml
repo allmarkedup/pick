@@ -1,7 +1,0 @@
-label: "Image"
-order: 1
-notes: |
-  An `img` element represents an image.
-context:
-  img: "#"
-  alt: "Alternative text"

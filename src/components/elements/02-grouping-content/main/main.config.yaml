@@ -1,6 +1,0 @@
-label: "Main"
-order: 13
-notes: |
-  The `main` element represents the main content of the body of a document or application.
-context:
-  content: <!-- Main page content -->

@@ -1,4 +1,0 @@
-label: "Abbreviation"
-order: 9
-notes: |
-  The `abbr` element represents an abbreviation or acronym, optionally with its expansion. The `title` attribute may be used to provide an expansion of the abbreviation.

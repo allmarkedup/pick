@@ -1,6 +1,0 @@
-label: "Section"
-order: 3
-notes: |
-  The `section` element represents a section of a document or application, a thematic grouping of content.
-context:
-  content: <!-- Section content -->

@@ -1,6 +1,0 @@
-label: "Figure caption"
-order: 12
-notes: |
-  The `figcaption` element represents a caption or legend for the contents of the parent `figure` element.
-context:
-  content: Caption
