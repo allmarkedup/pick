@@ -4,7 +4,7 @@ const gulp = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const del = require('del');
 const deploy = require('gulp-gh-pages');
-const exec = require('child_process').exec;
+const child_process = require('child_process');
 const sass = require('gulp-sass');
 const sassGlob = require('gulp-sass-glob');
 
@@ -29,7 +29,7 @@ gulp.task('css:watch', function () {
 
 // Build
 gulp.task('build', ['default'], function (cb) {
-    exec('fractal build', function (err, stdout, stderr) {
+    child_process.exec('fractal build', function (err, stdout, stderr) {
         console.log(stdout);
         console.log(stderr);
         cb(err);
