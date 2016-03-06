@@ -1,21 +1,26 @@
 // Base colours (taken from http://clrs.cc)
-$color-navy: #001f3f;
-$color-blue: #0074d9;
-$color-aqua: #7fdbff;
-$color-teal: #39cccc;
+$color-navy: #024;
+$color-blue: #07d;
+$color-aqua: #7df;
+$color-teal: #3cc;
 $color-olive: #3d9970;
 $color-green: #2ecc40;
-$color-lime: #01ff70;
-$color-yellow: #ffdc00;
+$color-lime: #0f7;
+$color-yellow: #fd0;
 $color-orange: #ff851b;
-$color-red: #ff4136;
+$color-red: #f43;
 $color-fuchsia: #f012be;
 $color-purple: #b10dc9;
 $color-maroon: #85144b;
+
+// Base shades
 $color-white: #fff;
-$color-gray: #aaa;
-$color-silver: #ddd;
-$color-black: #111;
+$color-grey-lightest: #eee;
+$color-grey-light: #aaa;
+$color-grey: #777;
+$color-grey-dark: #444;
+$color-grey-darkest: #111;
+$color-black: #000;
 
 // Social brand colors
 $color-twitter: #55acee;

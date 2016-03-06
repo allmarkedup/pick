@@ -10,6 +10,30 @@ html *::after {
   box-sizing: inherit;
 }
 
+body {
+  color: #111;
+  background-color: #eee;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+abbr {
+  -webkit-font-feature-settings: "c2sc", "onum";
+          font-feature-settings: "c2sc", "onum";
+  font-variant: all-small-caps lining-nums;
+}
+
+kbd {
+  font-family: -apple-system, system;
+}
+
+mark {
+  background-color: rgba(0, 255, 119, 0.75);
+}
+
+samp {
+  font-family: -apple-system, system;
+}
+
 u {
   text-decoration: underline wavy red;
 }
