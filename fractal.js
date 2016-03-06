@@ -6,10 +6,10 @@ const md = require('marked');
 fractal.set('project.title', 'Pick');
 
 fractal.set('components.default.preview', '@preview');
+fractal.set('components.default.status', 'prototype');
 fractal.set('components.engine', 'nunjucks');
 fractal.set('components.ext', '.html');
 fractal.set('components.path', './src/components');
-fractal.set('components.status.default', 'prototype');
 fractal.set('components.title', 'Examples');
 
 fractal.set('docs.engine', 'nunjucks');
