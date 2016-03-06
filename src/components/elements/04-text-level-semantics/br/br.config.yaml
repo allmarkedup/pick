@@ -1,4 +1,4 @@
-label: "Line break"
-order: 22
+label: "br — Line break"
+order: 23
 notes: |
   The `br` element represents a line break.

@@ -1,4 +1,4 @@
-label: "Deletion"
+label: "del — Deletion"
 notes: |
   The `del` element represents a removal from the document. The `datetime` attribute can be included to include the date and (optionally) time of the change.
 context:

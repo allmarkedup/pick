@@ -1,4 +1,4 @@
-label: "Span"
+label: "span"
 order: 22
 notes: |
   The `span` element doesn't mean anything on its own, but can be useful when used together with the global attributes, e.g. `class`, `lang`, or `dir`.

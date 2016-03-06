@@ -1,4 +1,4 @@
-label: "Paragraph"
+label: "p — Paragraph"
 order: 1
 notes: |
   The `p` element represents a paragraph.

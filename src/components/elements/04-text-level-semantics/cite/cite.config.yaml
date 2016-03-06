@@ -1,4 +1,4 @@
-label: "Citation"
+label: "cite — Citation"
 order: 6
 notes: |
   The `cite` element represents a reference to a creative work. Creative works include a book, a paper, an essay, a poem, a score, a song, a script, a film, a TV show, a game, a sculpture, a painting, a theatre production, a play, an opera, a musical, an exhibition, a legal case report, a computer program, a web site, a web page, a blog post or comment, a forum post or comment, a tweet, a written or oral statement, etc.

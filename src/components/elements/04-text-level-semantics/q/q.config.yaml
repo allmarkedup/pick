@@ -1,4 +1,4 @@
-label: "Quotation"
+label: "q — Quotation"
 order: 7
 notes: |
   The `q` element represents some phrasing content quoted from another source.

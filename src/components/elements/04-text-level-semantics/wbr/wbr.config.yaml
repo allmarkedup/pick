@@ -1,4 +1,4 @@
-label: "Word break"
-order: 23
+label: "wbr — Word break"
+order: 24
 notes: |
   The `wbr` element represents a word break opportunity.

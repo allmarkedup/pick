@@ -1,4 +1,4 @@
-label: "Strikethrough"
+label: "s — Strikeout"
 order: 5
 notes: |
   The `s` element represents contents that are no longer accurate or no longer relevant.

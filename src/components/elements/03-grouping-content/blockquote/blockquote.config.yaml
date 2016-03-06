@@ -1,4 +1,4 @@
-label: "Blockquote"
+label: "blockquote"
 order: 4
 notes: |
   The `blockquote` element represents content that is quoted from another source.

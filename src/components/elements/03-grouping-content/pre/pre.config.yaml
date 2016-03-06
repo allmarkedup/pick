@@ -1,4 +1,4 @@
-label: "Preformatted text"
+label: "pre — Preformatted text"
 order: 3
 notes: |
   The `pre` element represents a block of preformatted text, in which structure is represented by typographic conventions rather than by elements.

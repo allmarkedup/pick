@@ -1,4 +1,4 @@
-label: "Superscript"
+label: "sup — Superscript"
 order: 17
 notes: |
   The `sup` element represents a superscript. This element must be used only to mark up typographical conventions with specific meanings, not for typographical presentation.

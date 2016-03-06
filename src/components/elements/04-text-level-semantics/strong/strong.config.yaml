@@ -1,4 +1,4 @@
-label: "Strong importance"
+label: "strong — Strong importance"
 order: 3
 notes: |
   The `strong` element represents strong importance, seriousness, or urgency for its contents.

@@ -1,4 +1,4 @@
-label: "Emphasis"
+label: "em — Emphasis"
 order: 2
 notes: |
   The `em` element represents stress emphasis of its contents.
