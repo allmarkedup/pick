@@ -1,4 +1,4 @@
-label: "Section"
+label: "section"
 order: 3
 notes: |
   The `section` element represents a section of a document or application, a thematic grouping of content.

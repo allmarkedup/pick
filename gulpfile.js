@@ -3,6 +3,8 @@
 const gulp = require('gulp');
 const autoprefixer = require('gulp-autoprefixer');
 const del = require('del');
+const deploy = require('gulp-gh-pages');
+const exec = require('child_process').exec;
 const sass = require('gulp-sass');
 const sassGlob = require('gulp-sass-glob');
 
@@ -10,7 +12,7 @@ const sassGlob = require('gulp-sass-glob');
 gulp.task('css', ['clean:css'], function() {
     return gulp.src('./src/assets/styles/app.scss')
         .pipe(sassGlob())
-        .pipe(sass().on('error', sass.logError))
+        .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
         .pipe(autoprefixer({
             browsers: ['> 5%'],
         }))
@@ -22,10 +24,24 @@ gulp.task('clean:css', function() {
 });
 
 gulp.task('css:watch', function () {
-    gulp.watch('./src/assets/styles/**/*.scss', ['css']);
+    gulp.watch('./src/**/*.scss', ['css']);
+});
+
+// Build
+gulp.task('build', ['default'], function (cb) {
+    exec('fractal build', function (err, stdout, stderr) {
+        console.log(stdout);
+        console.log(stderr);
+        cb(err);
+    });
+});
+
+// Deploy
+gulp.task('deploy', ['build'], function () {
+    return gulp.src("./build/**/*")
+        .pipe(deploy());
 });
 
 // Task sets
 gulp.task('watch', ['css:watch']);
-
 gulp.task('default', ['css']);

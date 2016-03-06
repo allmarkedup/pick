@@ -1,4 +1,4 @@
-label: "Header"
+label: "header"
 order: 7
 notes: |
   The `header` element represents introductory content for its nearest ancestor sectioning element. A header typically contains a group of introductory or navigational aids. When the nearest ancestor sectioning element is the `body` element, then it applies to the whole page.

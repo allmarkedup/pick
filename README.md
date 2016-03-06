@@ -1,6 +1,6 @@
 # Pick
 
-> **Note:** This project is in an early stage of development
+> **Note:** This project is in the early stages of development
 
 Named after design administrator [Frank Pick](https://en.wikipedia.org/wiki/Frank_Pick), *Pick* is a collection of best practice examples for front-end web design and development. Pick is also the spiritual successor to *[Barebones](https://github.com/paulrobertlloyd/barebones/)*, an earlier project that had similar goals.
 

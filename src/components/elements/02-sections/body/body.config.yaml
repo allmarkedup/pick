@@ -1,4 +1,4 @@
-label: "Body"
+label: "body"
 order: 1
 notes: |
   The `body` element represents the content of the document.

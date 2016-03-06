@@ -12,15 +12,18 @@
     "url": "https://github.com/paulrobertlloyd/pick/issues"
   },
   "scripts": {
-    "build": "gulp",
-    "watch": "gulp watch"
+    "watch": "gulp watch",
+    "start": "gulp",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
   },
-  "dependencies": {
+  "devDependencies": {
     "@frctl/fractal": "latest",
     "@frctl/nunjucks-adapter": "latest",
     "del": "latest",
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
+    "gulp-gh-pages": "latest",
     "gulp-sass": "latest",
     "gulp-sass-glob": "latest",
     "nunjucks-markdown": "latest"

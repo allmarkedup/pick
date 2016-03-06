@@ -1,0 +1,73 @@
+// Font metrics
+@mixin font-size-title {
+    font-family: $font-family-serif;
+    font-size: 1.3125rem; // 21px
+    font-weight: 300;
+    letter-spacing: -0.025rem;
+    line-height: (25/21);
+
+    @media screen and (min-width: $break-narrow) {
+        font-size: 2rem; // 32px
+        line-height: (36/32);
+    }
+
+    @media screen and (min-width: $break-wide) {
+        font-size: 2.25rem; // 36px
+        line-height: (40/36);
+    }
+}
+
+@mixin font-size-heading {
+    font-size: 1.125rem; // 18px
+    font-weight: 700;
+    letter-spacing: -0.025rem;
+    line-height: (20/18);
+
+    @media screen and (min-width: $break-wide) {
+        font-size: 1.5rem; // 24px
+        line-height: (25/24);
+    }
+}
+
+@mixin font-size-subheading {
+    font-size: 0.875rem; // 14px
+    letter-spacing: 0.125rem;
+    line-height: (20/14);
+    text-transform: uppercase;
+}
+
+@mixin font-size-lede {
+    font-size: 1rem; // 16px
+    letter-spacing: -0.025rem;
+    line-height: (20/16);
+
+    @media screen and (min-width: $break-narrow) {
+        font-size: 1.25rem; // 20px
+        line-height: (24/20);
+    }
+
+    @media screen and (min-width: $break-wide) {
+        font-size: 1.5rem; // 24px
+        line-height: (30/24);
+    }
+}
+
+@mixin font-size-body {
+    font-size: 0.875rem; // 14px
+    line-height: (18/14);
+
+    @media screen and (min-width: $break-narrow) {
+        font-size: 1rem; // 16px
+        line-height: (24/16);
+    }
+
+    @media screen and (min-width: $break-wide) {
+        font-size: 1.125rem; // 18px
+        line-height: (25/18);
+    }
+}
+
+@mixin font-size-caption {
+    font-size: 0.875rem; // 14px
+    line-height: (20/14);
+}

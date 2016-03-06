@@ -1,0 +1,7 @@
+label: "html"
+order: 1
+notes: |
+  The `html` element represents the root of an HTML document. Specifying a `lang` attribute provides the document's language, which can aid speech synthesis and translation tools.
+context:
+  content: <!-- HTML content -->
+  lang: en-gb

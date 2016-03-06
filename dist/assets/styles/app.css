@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+html *,
+html *::before,
+html *::after {
+  box-sizing: inherit;
+}
+
+u {
+  text-decoration: underline wavy red;
+}
