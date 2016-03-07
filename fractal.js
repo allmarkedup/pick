@@ -28,3 +28,5 @@ fractal.engine('nunjucks', '@frctl/nunjucks-adapter', {
         }
     }
 });
+
+module.exports = fractal;
