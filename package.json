@@ -17,9 +17,11 @@
     "build": "gulp build",
     "deploy": "gulp deploy"
   },
-  "devDependencies": {
+  "dependencies": {
     "@frctl/fractal": "latest",
-    "@frctl/nunjucks-adapter": "latest",
+    "@frctl/nunjucks-adapter": "latest"
+  },
+  "devDependencies": {
     "del": "latest",
     "gulp": "latest",
     "gulp-autoprefixer": "latest",
