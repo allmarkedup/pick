@@ -9,11 +9,11 @@ fractal.set('components.default.preview', '@preview');
 fractal.set('components.default.status', 'prototype');
 fractal.set('components.engine', 'nunjucks');
 fractal.set('components.ext', '.html');
-fractal.set('components.path', './src/components');
+fractal.set('components.path', __dirname + '/src/components');
 fractal.set('components.title', 'Examples');
 
 fractal.set('docs.engine', 'nunjucks');
-fractal.set('docs.path', './src/docs');
+fractal.set('docs.path', __dirname + '/src/docs');
 fractal.set('docs.title', 'Articles');
 
 fractal.set('plugins.web.static.path', 'dist');
